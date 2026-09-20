@@ -3,7 +3,6 @@ analyze.py
 ----------
 PySpark analysis of the captured honeypot logs.
 
-*** READ THIS FIRST — the whole point of the file ***
 You already know SQL. PySpark is basically SQL with a Python accent.
 Below, EVERY analysis is shown TWICE:
     (A) the DataFrame API  — the "Pythonic" way
