@@ -1,7 +1,0 @@
-# Streamlit theme — dark surface + the dashboard's single accent hue.
-[theme]
-base = "dark"
-primaryColor = "#ff5a4d"
-backgroundColor = "#0e1117"
-secondaryBackgroundColor = "#161b22"
-textColor = "#e6e6e6"
