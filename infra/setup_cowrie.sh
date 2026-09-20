@@ -92,7 +92,7 @@ echo ">>> Logs (JSON, one event per line):"
 echo "    /home/cowrie/honeypot/var/log/cowrie/cowrie.json"
 echo ">>> Watch live:  sudo tail -f /home/cowrie/honeypot/var/log/cowrie/cowrie.json"
 
-# --- REMINDERS (do these OUTSIDE this script) -----------------------------
+# --- REMINDERS (do these OUTSIDE this script) ---------------
 # * In the NSG: allow inbound 22 (bait) AND 2222 (your admin SSH).
 # * After install, lock down OUTBOUND egress in the NSG (allow 80/443/53,
 #   deny the rest) — defense-in-depth. See docs/SETUP.md Phase 4.
