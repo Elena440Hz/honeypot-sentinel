@@ -1,0 +1,11 @@
+{
+  "total_events": 18648,
+  "unique_ips": 386,
+  "login_attempts": 2216,
+  "commands_run": 3775,
+  "sessions": 2548,
+  "first_seen": "2026-07-20T00:01:44.367490+00:00",
+  "last_seen": "2026-07-20T19:57:25.661746+00:00",
+  "top_ip": "45.153.34.181",
+  "top_ip_count": 6086
+}
