@@ -1,4 +1,4 @@
-# Streamlit theme — dark surface + the dashboard's single accent hue.
+# Streamlit theme — dark surface + the dashboard's single accent hue. 
 [theme]
 base = "dark"
 primaryColor = "#ff5a4d"
