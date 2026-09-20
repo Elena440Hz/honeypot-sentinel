@@ -1,0 +1,6 @@
+# Dashboard-only deps — this is what Streamlit Community Cloud installs on deploy.
+# (The repo-root requirements.txt has the full project set incl. PySpark/Azure.)
+streamlit>=1.30
+pandas>=2.0
+plotly>=5.18
+requests>=2.31
