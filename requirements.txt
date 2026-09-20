@@ -1,0 +1,11 @@
+# Ingestion + dashboard run locally / on the VM (plain Python)
+azure-storage-blob==12.*
+requests==2.*
+python-dotenv==1.*
+pandas==2.*
+streamlit==1.*
+plotly==5.*
+
+# PySpark is only needed if you run Spark locally.
+# On Databricks Free Edition it's already installed — you don't need this there.
+pyspark==3.5.*

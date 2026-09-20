@@ -1,0 +1,28 @@
+# Secrets — NEVER commit these
+.env
+*.env
+secrets.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local data / logs (don't push RAW captured logs or GeoIP DBs — they're big)
+cowrie-*.json
+*.json.log
+logs/
+*.mmdb
+
+# BUT: the small aggregated "gold" layer IS committed — it's what the dashboard
+# reads, it keeps the repo self-contained/deployable, and it holds no secrets
+# (attacker IPs and the credentials THEY guessed, not mine).
+!dashboard/data/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
