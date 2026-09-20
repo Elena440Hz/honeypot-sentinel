@@ -73,7 +73,6 @@ have blocked the loader's C2 anyway.
 | `dashboard/app.py` | Streamlit dashboard (map, charts, tables) |
 | `dashboard/data/` | The committed gold layer the dashboard reads |
 | `docs/BUILD_LOG.md` | **The full build story** — every problem and fix |
-| `docs/BUILD_LOG.el.md` | Greek version of the build log |
 | `docs/SETUP.md` | Runbook: zero → first captured attack |
 
 ## Run the dashboard locally
