@@ -1,13 +1,13 @@
 """
 ship_logs.py
-------------
+
 Read Cowrie's JSON logs and upload them to Azure Blob Storage.
 
 Cowrie writes ONE JSON OBJECT PER LINE (this format is called "JSON Lines").
 That's convenient: each line is one event you can json.loads() independently,
 and Spark can read the whole file natively later.
 
-You already know Python — nothing here is exotic. Run this on the VM (or pull
+Run this on the VM (or pull
 the logs down and run it anywhere) on a schedule, e.g. once a day via cron.
 """
 
